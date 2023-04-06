@@ -1,0 +1,5 @@
+function Multiplication {
+	$num1 = Read-Host "Choose a number" 
+	$num2 = Read-Host "Choose a second number"
+	return "The result is: ($num1 * $num2)"
+}
