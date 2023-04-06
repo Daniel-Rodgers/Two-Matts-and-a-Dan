@@ -1,0 +1,6 @@
+function Minimum {
+	$num1 = Read-Host "Choose a number"
+	$num2 = Read-Host "Choose a second number"
+	$minNum = [Math]::Min($num1, $num2)
+	return "The minimum number is $minNum"
+}
