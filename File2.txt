@@ -1,0 +1,10 @@
+#!/Bin/Bash
+
+#Daniel Rodgers - W0237933
+
+$div = read-host "What number do you want to subdivide?" 
+$split = read-host "What do you want to divide it by?" 
+
+$final= ($div / $split)
+
+write-host "$div divides by $split into $final"
