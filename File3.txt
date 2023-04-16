@@ -1,0 +1,6 @@
+function Power {
+  $Number = Read-Host "Enter the number"
+  $Exponent = Read-Host "Enter the exponent to be applied to the first number"
+  $Answer = [math]::Pow($Number, $Exponent)
+  Write-Host "The value of $Number to the power of $Exponent is $Answer
+}
