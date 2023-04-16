@@ -1,4 +1,4 @@
-#!/Bin/Bash
+
 
 #Daniel Rodgers - W0237933
 
@@ -8,3 +8,10 @@ $split = read-host "What do you want to divide it by?"
 $final= ($div / $split)
 
 write-host "$div divides by $split into $final"
+
+#Matt Paton - W0413785
+function Minimum {
+	$num1 = Read-Host "Choose a number"
+	$num2 = Read-Host "Choose a second number"
+	$minNum = [Math]::Min($num1, $num2)
+	return "The minimum number is $minNum"

@@ -1,6 +1,16 @@
+#w0237933 Daniel Rodgers
+
 $Value1= get-random -maximum 100
 $Value2= get-random -maximum 100
 
 $bigger= [math]max::($value1, $value2)
 
 write-host "Of $value1 and $value2, $bigger is bigger."
+
+#0W0413785 - Matt Paton
+function Power {
+  $Number = Read-Host "Enter the number"
+  $Exponent = Read-Host "Enter the exponent to be applied to the first number"
+  $Answer = [math]::Pow($Number, $Exponent)
+  Write-Host "The value of $Number to the power of $Exponent is $Answer
+}
