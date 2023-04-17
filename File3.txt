@@ -1,0 +1,8 @@
+#W0276843 - Matthew Justason
+function Average {
+$a = Read-Host "First Number"
+$b = Read-Host "Second Number"
+$c = Read-Host "Third Number"
+$Average = ($a+$b+$c)/3
+Write-Host "Your average is $Average"
+}

@@ -1,0 +1,7 @@
+#Matthew Justason - W0276843
+function Subtraction {
+$subnum1 = Read-Host "Select a number"
+$subnum2 = Read-Host "Select a second number"
+$Subraction = $subnum1 - $subnum2
+Write-Host "Your result is $Subraction"
+}
