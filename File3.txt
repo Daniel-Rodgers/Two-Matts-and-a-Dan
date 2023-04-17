@@ -1,3 +1,13 @@
+
+#W0276843 - Matthew Justason
+function Average {
+$a = Read-Host "First Number"
+$b = Read-Host "Second Number"
+$c = Read-Host "Third Number"
+$Average = ($a+$b+$c)/3
+Write-Host "Your average is $Average"
+}
+
 #w0237933 Daniel Rodgers
 
 $Value1= get-random -maximum 100
@@ -14,3 +24,4 @@ function Power {
   $Answer = [math]::Pow($Number, $Exponent)
   Write-Host "The value of $Number to the power of $Exponent is $Answer
 }
+

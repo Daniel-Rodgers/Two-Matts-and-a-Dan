@@ -1,4 +1,12 @@
 
+#Matthew Justason - W0276843
+function Modulus {
+$mod = read-host "First number for modulus division" 
+$ulus = read-host "Second number for modulus division"
+$Modulus = $mod % $ulus
+Write-host "The remainder of your division is $Modulus"
+}
+
 
 #Daniel Rodgers - W0237933
 
